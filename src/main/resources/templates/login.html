@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+  <div class="background-shape shape-1"></div>
+  <div class="background-shape shape-2"></div>
+
+  <div class="login-card">
+    <h2>Bienvenido</h2>
+    <p>Ingresa a tu cuenta para continuar</p>
+    <form>
+      <div class="input-group">
+        <label>Usuario o Email</label>
+        <input type="text" name="identificador" class="glass-input" placeholder="Usuario o Email">
+      </div>
+
+      <div class="input-group">
+        <label>Contraseña</label>
+        <input type="password" class="glass-input" placeholder="••••••••">
+      </div>
+
+      <button type="button" class="btn-submit">Iniciar Sesión</button>
+
+        <div id="mensaje-estado" class="mensaje-oculto"></div>
+    </form>
+
+    <div class="footer-links">
+      ¿No tienes cuenta? <a href="#">Regístrate aquí</a>
+    </div>
+  </div>
+
+  <script src="/js/login.js"></script>
+
+</body>
+</html>
