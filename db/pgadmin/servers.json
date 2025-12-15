@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "CampusGames - Postgres",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "campus_games",
+      "Username": "campus_admin",
+      "SSLMode": "prefer"
+    }
+  }
+}
