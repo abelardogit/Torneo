@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro Clase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background-shape shape-1"></div>
+<div class="background-shape shape-2"></div>
+
+<form id="registroForm" class="login-card" action="/api/jugador/registrar" method="POST">
+    <h2>Registro de Jugador</h2>
+    <p>Completa tus datos para unirte a los Torneos de CCC</p>
+
+    <div class="input-group">
+        <label for="first_name">Primer Nombre</label>
+        <input type="text" id="first_name" name="firstName" class="glass-input" required placeholder="Tu primer nombre">
+    </div>
+
+    <div class="input-group">
+        <label for="last_name">Apellido</label>
+        <input type="text" id="last_name" name="lastName" class="glass-input" required placeholder="Tu apellido">
+    </div>
+
+    <div class="input-group">
+        <label for="username">Nombre de Usuario para la app de torneo</label>
+        <input type="text" id="username" name="username" class="glass-input" required placeholder="Nombre único de usuario">
+    </div>
+
+    <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="glass-input" required placeholder="tu.correo@dominio.com">
+    </div>
+
+    <div class="input-group">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" class="glass-input" required minlength="8" placeholder="••••••••">
+    </div>
+
+    <div class="input-group">
+        <label for="confirmPassword">Confirma Contraseña</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" class="glass-input" required placeholder="••••••••">
+    </div>
+
+    <div class="input-group">
+        <label for="riot_id">Riot ID</label>
+        <input type="text" id="riot_id" name="riotId" class="glass-input" placeholder="Tu Riot ID (ej. Valorant, LoL)">
+    </div>
+
+    <div class="input-group">
+        <label for="epic_id">Epic ID</label>
+        <input type="text" id="epic_id" name="epicId" class="glass-input" placeholder="Tu ID de Epic Games">
+    </div>
+
+    <div class="input-group">
+        <label for="fifa_id">Fifa ID</label>
+        <input type="text" id="fifa_id" name="fifaId" class="glass-input" placeholder="Tu ID de EA FC/FIFA">
+    </div>
+
+    <div class="checkbox-group">
+        <input type="checkbox" id="aceptaTerminos" name="aceptaTerminos" required>
+        <label for="aceptaTerminos">
+            Acepto los <a href="#" class="footer-links-inline">Términos y Condiciones</a>
+        </label>
+    </div>
+
+    <button type="submit" class="btn-submit">Registrarse</button>
+
+    <div id="mensajeError" class="message-area"></div>
+
+    <div class="footer-links">
+        ¿Ya tienes cuenta? <a href="#">Iniciar Sesión</a>
+    </div>
+</form>
+
+<script src="validation.js"></script>
+</body>
+</html>
