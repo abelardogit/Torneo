@@ -1,8 +1,7 @@
 package com.ccc.tournament.dashboard.gamescrud.updategame.infrastructure.controller;
 
-import com.daw.competitionGames.gamescrud.updategame.application.UpdateGameApp;
-import com.daw.competitionGames.gamescrud.updategame.application.UpdateGameRequest;
-import com.daw.competitionGames.shared.storagefiles.domain.interfaces.StorageService;
+import com.ccc.tournament.dashboard.gamescrud.updategame.application.UpdateGameApp;
+import com.ccc.tournament.dashboard.gamescrud.updategame.application.UpdateGameRequest;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -10,9 +9,9 @@ import org.springframework.web.multipart.MultipartFile;
 public class UpdateGameController {
 
     private final UpdateGameApp updateGameApp;
-    private final StorageService storageService;
+    private final com.ccc.tournament.shared.storagefiles.domain.interfaces.StorageService storageService;
 
-    public UpdateGameController(UpdateGameApp updateGameApp, StorageService storageService) {
+    public UpdateGameController(UpdateGameApp updateGameApp, com.ccc.tournament.shared.storagefiles.domain.interfaces.StorageService storageService) {
         this.updateGameApp = updateGameApp;
         this.storageService = storageService;
     }

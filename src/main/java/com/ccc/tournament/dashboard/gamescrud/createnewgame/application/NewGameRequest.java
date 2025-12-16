@@ -1,6 +1,6 @@
 package com.ccc.tournament.dashboard.gamescrud.createnewgame.application;
 
-import com.daw.competitionGames.shared.domain.AssociatedID;
+import com.ccc.tournament.shared.domain.AssociatedID;
 
 public class NewGameRequest {
 

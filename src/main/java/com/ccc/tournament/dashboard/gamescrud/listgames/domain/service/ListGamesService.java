@@ -1,7 +1,7 @@
 package com.ccc.tournament.dashboard.gamescrud.listgames.domain.service;
 
-import com.daw.competitionGames.shared.domain.Game;
-import com.daw.competitionGames.shared.domain.GameRepository;
+import com.ccc.tournament.shared.domain.Game;
+import com.ccc.tournament.shared.domain.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

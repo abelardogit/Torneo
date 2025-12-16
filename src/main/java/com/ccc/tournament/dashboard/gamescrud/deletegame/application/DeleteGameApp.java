@@ -1,6 +1,6 @@
 package com.ccc.tournament.dashboard.gamescrud.deletegame.application;
 
-import com.daw.competitionGames.gamescrud.deletegame.domain.service.DeleteGameService;
+import com.ccc.tournament.dashboard.gamescrud.deletegame.domain.service.DeleteGameService;
 import org.springframework.stereotype.Service;
 
 @Service

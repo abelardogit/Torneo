@@ -1,4 +1,4 @@
-package com.daw.competitionGames.shared.domain;
+package com.ccc.tournament.shared.domain;
 
 public enum AssociatedID {
     EA_ID,

@@ -1,6 +1,6 @@
-package com.daw.competitionGames.shared.storagefiles.infrastructure.controller;
+package com.ccc.tournament.shared.storagefiles.infrastructure.controller;
 
-import com.daw.competitionGames.shared.storagefiles.domain.interfaces.StorageService;
+import com.ccc.tournament.shared.storagefiles.domain.interfaces.StorageService;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

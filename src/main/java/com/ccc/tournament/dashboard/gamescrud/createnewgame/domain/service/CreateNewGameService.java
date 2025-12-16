@@ -1,8 +1,8 @@
 package com.ccc.tournament.dashboard.gamescrud.createnewgame.domain.service;
 
-import com.daw.competitionGames.gamescrud.createnewgame.application.NewGameRequest;
-import com.daw.competitionGames.shared.domain.Game;
-import com.daw.competitionGames.shared.domain.GameRepository;
+import com.ccc.tournament.dashboard.gamescrud.createnewgame.application.NewGameRequest;
+import com.ccc.tournament.shared.domain.Game;
+import com.ccc.tournament.shared.domain.GameRepository;
 import org.springframework.stereotype.Service;
 
 @Service

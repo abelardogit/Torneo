@@ -1,7 +1,7 @@
 package com.ccc.tournament.dashboard.gamescrud.listgames.application;
 
-import com.daw.competitionGames.gamescrud.listgames.domain.service.ListGamesService;
-import com.daw.competitionGames.shared.domain.Game;
+import com.ccc.tournament.dashboard.gamescrud.listgames.domain.service.ListGamesService;
+import com.ccc.tournament.shared.domain.Game;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

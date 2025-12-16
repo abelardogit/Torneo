@@ -1,7 +1,7 @@
 package com.ccc.tournament.dashboard.gamescrud.listgames.infrastructure.controller;
 
-import com.daw.competitionGames.gamescrud.listgames.application.ListGamesApp;
-import com.daw.competitionGames.shared.domain.Game;
+import com.ccc.tournament.dashboard.gamescrud.listgames.application.ListGamesApp;
+import com.ccc.tournament.shared.domain.Game;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

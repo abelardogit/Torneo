@@ -1,7 +1,7 @@
-package com.daw.competitionGames.shared.storagefiles.domain.service;
+package com.ccc.tournament.shared.storagefiles.domain.service;
 
-import com.daw.competitionGames.shared.storagefiles.core.config.StorageProperties;
-import com.daw.competitionGames.shared.storagefiles.domain.interfaces.StorageService;
+import com.ccc.tournament.shared.storagefiles.core.config.StorageProperties;
+import com.ccc.tournament.shared.storagefiles.domain.interfaces.StorageService;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;

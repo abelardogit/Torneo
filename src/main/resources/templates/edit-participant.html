@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Participante</title>
+    <link rel="stylesheet" th:href="@{/edit-participant.css}">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h2>Editar Participante</h2>
+        <form th:action="@{/participantes/update}" th:object="${participantForm}" method="post">
+            <input type="hidden" name="originalGamertag" th:value="${originalGamertag}" />
+
+            <label>Gamertag</label>
+            <input type="text" th:field="*{gamertag}" />
+
+            <label>Email</label>
+            <input type="email" th:field="*{email}" />
+
+            <label>Juego</label>
+            <select th:field="*{game}">
+                <option value="">Selecciona un juego</option>
+                <option>Valorant</option>
+                <option>Fortnite</option>
+                <option>League of Legends</option>
+                <option>COD Warzone</option>
+                <option>FIFA 25</option>
+            </select>
+
+            <label>Rol</label>
+            <select th:field="*{role}">
+                <option>Jugador</option>
+                <option>Capitán</option>
+                <option>Coach</option>
+            </select>
+
+            <button class="btn" type="submit">Guardar cambios</button>
+            <a href="/" class="btn btn-small" style="display:inline-block; text-align:center; margin-top:10px;">Cancelar</a>
+        </form>
+    </div>
+</div>
+</body>
+</html>

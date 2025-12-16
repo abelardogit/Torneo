@@ -1,6 +1,6 @@
 package com.ccc.tournament.dashboard.gamescrud.updategame.application;
 
-import com.daw.competitionGames.gamescrud.updategame.domain.service.UpdateGameService;
+import com.ccc.tournament.dashboard.gamescrud.updategame.domain.service.UpdateGameService;
 import org.springframework.stereotype.Service;
 
 @Service

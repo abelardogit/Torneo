@@ -12,7 +12,7 @@ public class TorneoApplication {
         SpringApplication.run(TorneoApplication.class, args);
     }
     @Bean
-    CommandLineRunner init(com.daw.competitionGames.shared.storagefiles.domain.interfaces.StorageService storageService) {
+    CommandLineRunner init(com.ccc.tournament.shared.storagefiles.domain.interfaces.StorageService storageService) {
         return (args) -> {
             storageService.init();
         };

@@ -1,4 +1,4 @@
-package com.daw.competitionGames.shared.domain;
+package com.ccc.tournament.shared.domain;
 
 import jakarta.persistence.*;
 

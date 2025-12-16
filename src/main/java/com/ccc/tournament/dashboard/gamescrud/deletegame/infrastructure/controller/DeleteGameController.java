@@ -1,6 +1,6 @@
 package com.ccc.tournament.dashboard.gamescrud.deletegame.infrastructure.controller;
 
-import com.daw.competitionGames.gamescrud.deletegame.application.DeleteGameApp;
+import com.ccc.tournament.dashboard.gamescrud.deletegame.application.DeleteGameApp;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

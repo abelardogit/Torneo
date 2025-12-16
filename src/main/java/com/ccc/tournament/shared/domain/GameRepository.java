@@ -1,4 +1,4 @@
-package com.daw.competitionGames.shared.domain;
+package com.ccc.tournament.shared.domain;
 
 import java.util.List;
 import java.util.Optional;

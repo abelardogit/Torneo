@@ -1,4 +1,4 @@
-package com.daw.competitionGames.shared.storagefiles.core.config;
+package com.ccc.tournament.shared.storagefiles.core.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

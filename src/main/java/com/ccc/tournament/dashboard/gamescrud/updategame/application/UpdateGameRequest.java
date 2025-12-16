@@ -1,6 +1,7 @@
 package com.ccc.tournament.dashboard.gamescrud.updategame.application;
 
-import com.daw.competitionGames.shared.domain.AssociatedID;
+
+import com.ccc.tournament.shared.domain.AssociatedID;
 
 public class UpdateGameRequest {
     private String name;

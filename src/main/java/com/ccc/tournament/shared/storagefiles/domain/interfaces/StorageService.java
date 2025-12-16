@@ -1,4 +1,4 @@
-package com.daw.competitionGames.shared.storagefiles.domain.interfaces;
+package com.ccc.tournament.shared.storagefiles.domain.interfaces;
 
 import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;

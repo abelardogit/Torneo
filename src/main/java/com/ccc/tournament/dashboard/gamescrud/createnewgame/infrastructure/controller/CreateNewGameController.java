@@ -1,8 +1,8 @@
 package com.ccc.tournament.dashboard.gamescrud.createnewgame.infrastructure.controller;
 
-import com.daw.competitionGames.gamescrud.createnewgame.application.CreateNewGameApp;
-import com.daw.competitionGames.gamescrud.createnewgame.application.NewGameRequest;
-import com.daw.competitionGames.shared.storagefiles.domain.interfaces.StorageService;
+import com.ccc.tournament.dashboard.gamescrud.createnewgame.application.CreateNewGameApp;
+import com.ccc.tournament.dashboard.gamescrud.createnewgame.application.NewGameRequest;
+import com.ccc.tournament.shared.storagefiles.domain.interfaces.StorageService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
